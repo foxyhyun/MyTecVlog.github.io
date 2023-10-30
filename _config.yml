@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Foxyhyun"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Foxhyun의 AI 개발 블로그입니다"
   location         : "South Korea"
   email            :
@@ -285,5 +285,9 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky : true
+      toc_label : 목차
+      toc_icon : "fa-solid fa-bars"
 
 date_format: "%Y-%m-%d"
